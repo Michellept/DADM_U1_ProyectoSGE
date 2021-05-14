@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CED9EB"
+    tools:context=".LogInActivity">
+
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="200px"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintVertical_bias=".3"
+        app:layout_constraintWidth_percent=".8" />
+
+    <TextView
+        android:id="@+id/textTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo2"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:paddingTop="15dp"
+        android:textSize="3.3mm"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/textTitulo"
+        />
+    <EditText
+        android:id="@+id/editText_NControl"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintVertical_bias=".3"
+        app:layout_constraintHorizontal_bias=".5"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="200px"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:hint="@string/nDeControl_login"
+        android:inputType="number"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth_percent=".8"
+        app:layout_constraintVertical_bias=".3"
+        app:layout_constraintHorizontal_bias=".5"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="24dp"
+        android:hint="@string/contraseña_login"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_NControl"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btniniciarsesion"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop= "60dp"
+        android:layout_marginEnd="24dp"
+        android:textColor="@color/white"
+        android:backgroundTint="#0B52C3"
+        android:textSize="19sp"
+        android:text="@string/btnlogIn_login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_password"
+        app:layout_constraintVertical_bias="0.2"
+        />
+
+
+
+</LinearLayout>

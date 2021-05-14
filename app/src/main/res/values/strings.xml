@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">DADM_UI_FinalSGE</string>
+    <string name="nDeControl_login">N° de control.</string>
+    <string name="contraseña_login">Contraseña.</string>
+    <string name="btnlogIn_login">Iniciar sesión</string>
+    <string name="btnRegistrarse_logIn">Registrarse</string>
+
+    <string name="nDeControl_sigIn">N° de control.</string>
+    <string name="email_sigIn">Email.</string>
+    <string name="nombre_sigIn">Nombre completo.</string>
+    <string name="ap_am_sigIn">Apellidos.</string>
+    <string name="carrera_sigIn">Carrera.</string>
+    <string name="semestre_sigIn">Semestre.</string>
+    <string name="contraseña_sigIn">Contraseña.</string>
+    <string name="btnRegistrarse_sigIn">Registrarse</string>
+    <string name="btnSalir_sigIn">Salir.</string>
+
+    <string name="txtSge">SGE</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_inicio">Inicio.</string>
+    <string name="menu_misDatos">Mis datos.</string>
+    <string name="menu_horario">Horario.</string>
+    <string name="menu_reticula">Reticula.</string>
+    <string name="menu_calificaciones">Calificaciones.</string>
+    <string name="menu_cerrarsesion">Cerrar sesión.</string>
+
+    <string name="ncontrol">18120237</string>
+    <string name="nombre">Jaquelyne Vazquez Perez.</string>
+
+
+    <string name="titulo">Instituto Tecnológico de Morelia.</string>
+    <string name="titulo2">Bienvenido al Sistema de Gestión Escolar.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="jsonDeAlumnos">
+{
+ 	"alumnos":
+	[
+        {
+ 		"nombre": "'Michelle Campos' ",
+        "noControl": "18120225",
+ 		"carrera": "ITICs",
+ 		"semestre": "7",
+ 		"contrasena": "123"
+    	},
+        {  "nombre":"'Jaquelyne Vazquez'",
+            "noControl": "18120239",
+            "carrera": "TICS",
+            "semestre": "7",
+            "contrasena": "123"
+         }
+      ],
+
+	"profesores":
+	[
+        {"nombre": "'Gabriela lua vargas' ",
+        "id": "1234567890",
+ 		"contrasena": "123",
+		"materia":"'sistemas operativos 2'"},
+
+		{"nombre": "'Abel Alberto Pintor Estrada' ",
+        "id": "123456",
+ 		"contrasena": "123",
+		"materia":"'Ciclos de Vida de Software'"},
+
+		{"nombre": "'Octavio Salud Ortiz Ortiz' ",
+        "id": "333",
+ 		"contrasena": "123",
+		"materia":"'Taller de Investigacion 1'"},
+
+		{"nombre": "'Jorge Mora Garcia' ",
+        "id": "333",
+ 		"contrasena": "123",
+		"materia":"'Redes Emergentes'"},
+     ],
+
+    "reticula":
+     [
+        {
+ 			"semestre1":
+            [
+                    {"B1T1": "'Calculo Diferencial'",
+					 "calificacion": "71"},
+                    {"B1T2": "'Fundamentos de programacion'",
+					 "calificacicon": "85"	},
+ 			    	{"B1T3": "'Matematicas Discretas 1'",
+					 "calificacion": "70"},
+ 				    {"B1T4": "'Introduccion a las Tics'",
+					"calificacion": "92"},
+ 				    {"B1T5": "'Taller de Etica'",
+					"calificacion": "91"},
+ 				    {"B1T6": "'Fundamentos de Investigacion'",
+					"calificacion": "85"},
+ 				    {"B1T7": "'Tutoria'"},
+ 				    {"B1T8": "'Actividades Fisicas Para La Salud y la prevencion'"}
+ 			]
+
+
+        },
+        {
+ 			"semestre2":
+            [
+                {"B2T1": "'Calculo Integral'",
+				"calificacion": "74"},
+ 				{"B2T2": "'Programacion Orientada a Objetos'",
+				"calificacion": "97"},
+ 				{"B2T3": "'Matematicas Discretas 2'",
+				 "calificaicon": "77"},
+ 				{"B2T4": "'Algebra Lineal'",
+				 "calificacion": "80"},
+ 				{"B2T5": "'Probabilidad Y Estadistica'",
+				 "calificacion": "70"},
+ 				{"B2T6": "'Contabilidad Y Costos'",
+				"calificacion": "92"},
+ 				{"B2T7": "'Apreciacion de las Artes y Diversidad Cultural'"}
+ 			]
+ 		},
+ 		{
+ 			"semestre3":
+            [
+                {"B6T5": "'Desarrollo Sustentable'",
+				 "calificacion": "88"},
+ 				{"B3T2": "'Estructura y Organizacion de Datos'",
+				 "calificacion": "85"},
+ 				{"B3T3": "'Matematicas Para la toma de decisiones'",
+				 "calificacion": "72"},
+ 				{"B3T4": "'Fundamentos de Base de Datos'",
+				 "calificacion": "85"},
+ 				{"B3T5": "'Electricidad Y Magnetismo'",
+				 "calificacion": "70"},
+ 				{"B3T6": "'Administracion Gerencial'",
+				 "calificacion": "100"}
+
+ 			]
+ 		},
+ 		{
+ 			"semestre4":
+            [
+                {"B4T1": "'Matematicas Aplicadas a comunicaciones'",
+				"calificacion": "90"},
+ 				{"B4T2": "'Programacion 2'",
+				"calificacion": "87"},
+ 				{"B4T3": "'Fundamentos de Redes'",
+				"calificacion": "84"},
+ 				{"B4T4": "'Taller de Base de Datos'",
+				"calificacion": "89"},
+ 				{"B4T5": "'Circuitos Electricos y Electronicos'",
+				"calificacion": "85"},
+ 				{"B4T6": "'Ingenieria de Software'",
+				"calificacion": "77"}
+
+ 			]
+ 		},
+ 		{
+ 			"semestre5":
+			[
+				{"B5T1": "'Analisis de señales Y Sistemas de Comunicacion'",
+				"calificacion": "88"},
+ 				{"B5T2": "'Administracion de Proyectos'",
+				"calificacion": "80"},
+ 				{"B5T3": "'Redes de Computadoras'",
+				"calificacion": "86"},
+ 				{"B5T4": "'Base de Datos Distribuidas'",
+				"calificacion": "98"},
+ 				{"B5T5": "'Arquitectura de Computadoras'",
+				"calificacion": "81"},
+ 				{"B5T6": "'Taller de Ingenieria de Software'",
+				"calificacion": "100"}
+
+ 			]
+ 		},
+ 		{
+ 			"semestre6":
+			[
+				{"B6T1": "'Telecomunicaciones'",
+				"calificacion": "85"},
+ 				{"B6T6": "'Tecnologias Inalambricas'",
+				"calificacion": "87"},
+ 				{"B7T6": "'Interaccion Humano Computadora'",
+				"calificacion": "95"},
+ 				{"B6T4": "'Sitemas Operativos'",
+				"calificacion": "100"},
+ 				{"B6T2": "'Programacion Web'",
+				"calificacion": "100"},
+ 				{"B6T3": "'Desarrollo de Emprendedores'",
+				"calificacion": "97"}
+
+ 			]
+ 		},
+ 		{
+ 			"semestre7":
+			[
+				{"B7T9": "'Ciclos de Vida de Software'",
+				"profesor":"'Abel Alberto Pintor Estrada'",
+				"horario": "'13:00'"},
+ 				{"B7T1": "'Redes Emergentes'",
+				"profesor":"'Jorge Mora Garcia'",
+				"horario": "'16:00'"},
+ 				{"B7T3": "'Taller de Investigacion 1'",
+				"profesor":"'Octavio Salud Ortiz Ortiz'",
+				"horario": "'14:00'"},
+ 				{"B7T4": "'Sitemas Operativos 2'",
+				"profesor":"'Gabriela Lua Vargas'",
+				"horario": "'15:00'"},
+ 				{"B7T2": "'Desarrollo De Aplicaciones Para Dispositivos Moviles'",
+				"profesor":"'Alejandro Amaro Flores'",
+				"horario": "'18:00'"},
+ 				{"B7T5": "'Negocios Electronicos 1'",
+				"profesor":"'Jose Omar Hernandez Esquivel'",
+				"horario": "'17:00'"},
+ 				{"B9T1": "'Actividades Complementarias'"}
+
+ 			]
+ 		},
+ 		{
+ 			"semestre8":
+			[
+				{"B8T12": "'Arquitectura de software'"},
+ 				{"B8T13": "'Taller de Modelado Agil de Software'"},
+ 				{"B8T3": "'Taller de Investigacion 2'"},
+ 				{"B8T1": "'Administracion y Seguridad de Redes'"},
+ 				{"B8T2": "'Auditoria En Tecnologias De La Informacion'"},
+ 				{"B8T5": "'Negocios Electronicos 2'"},
+ 				{"B9T2": "'Servicio Social'"}
+
+ 			]
+ 		},
+
+ 		{
+ 			"semestre9":
+			[
+				{"B9T11": "'Tecnologias De Programacion para Moviles'"},
+ 				{"B9T12": "'Verificacion y Validacion del Software'"},
+ 				{"B8T4": "'Ingenieria Del Conocimiento'"}
+ 			]
+ 		}
+	 ]
+
+}
+    </string>
+	<string name="nombre_de_la_materia">Nombre de la materia</string>
+	<string name="calificacion">calificacion</string>
+
+</resources>
